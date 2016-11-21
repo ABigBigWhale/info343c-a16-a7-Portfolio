@@ -1,41 +1,43 @@
 {
-    'projects': {
-        'INFO 343': {
-            'a2-html-css': {
-                'name': 'Pencil.com',
-                'desc': 'A page that uses fundamental HTML/CSS to achieve mobile-friendly web design.',
-                'link': 'http://students.washington.edu/liuh25/info343/a2-html-css/',
+    "projects": {
+        "INFO 343": {
+            "a2-html-css": {
+                "name": "Pencil.com",
+                "desc": "A page that uses fundamental HTML/CSS to achieve mobile-friendly web design.",
+                "link": "http://students.washington.edu/liuh25/info343/a2-html-css/"
             },
-            'a3-mapping': {
-                'name': 'Mass Shooting Map',
-                'desc': 'A simple web page utilizing vanilla JavaScript and related APIs to visualize data.',
-                'link': 'http://students.washington.edu/liuh25/info343/a3-mapping/'
+            "a3-mapping": {
+                "name": "Mass Shooting Map",
+                "desc": "A simple web page utilizing vanilla JavaScript and related APIs to visualize data.",
+                "link": "http://students.washington.edu/liuh25/info343/a3-mapping/"
             },
-            'a4-firebase': {
-                'name': 'Moments',
-                'desc': 'A Twitter clone achieving user registering and content sharing based on Google Firebase.',
-                'link': 'http://students.washington.edu/liuh25/info343/a4-firebase/',
-                'repo': 'https://github.com/ABigBigWhale/Moments'
+            "a4-firebase": {
+                "name": "Moments",
+                "desc": "A Twitter clone achieving user registering and content sharing based on Google Firebase.",
+                "link": "http://students.washington.edu/liuh25/info343/a4-firebase/",
+                "repo": "https://github.com/ABigBigWhale/Moments"
             },
-            'a5-spotify': {
-                'name': 'Quizify',
-                'desc': 'A song-name-guessing web game based on Spotify Web API using ReactJS.',
-                'link': 'http://students.washington.edu/liuh25/info343/a5-spotify/',
-                'repo': 'https://github.com/ABigBigWhale/Quizify'
+            "a5-spotify": {
+                "name": "Quizify",
+                "desc": "A song-name-guessing web game based on Spotify Web API using ReactJS.",
+                "link": "http://students.washington.edu/liuh25/info343/a5-spotify/",
+                "repo": "https://github.com/ABigBigWhale/Quizify"
             }
         },
-        'Personal': {
-            'apocashop': {
-                'name': 'Apocashop',
-                'desc': 'An HTML5 game written in JavaScript based on Phaser Framework. The game is a blend of Lemonade Stand and Papers, Please. The game is featured on the front page of Kongregate and Newgrounds, as well as in the news section of Phaser Framework. And also was sponsored by Coolmath-Game.com.',
-                'link': 'http://www.kongregate.com/games/carsonal/apocashop',
-                'repo': 'https://github.com/ABigBigWhale/Apocashop'
+
+        "Personal": {
+            "apocashop": {
+                "name": "Apocashop",
+                "desc": "An HTML5 game written in JavaScript based on Phaser Framework. The game is a blend of Lemonade Stand and Papers, Please. The game is featured on the front page of Kongregate and Newgrounds, as well as in the news section of Phaser Framework. And also was sponsored by Coolmath-Game.com.",
+                "preview_link": "http://apocashop.omnithon.com/v3/",
+                "link": "http://www.kongregate.com/games/carsonal/apocashop",
+                "repo": "https://github.com/ABigBigWhale/Apocashop"
             }
         }
     },
-    'contact': {
-        'email': 'liuh25@uw.edu',
-        'github': 'https://github.com/ABigBigWhale/',
-        'linkedin': 'https://www.linkedin.com/in/hao-liu-014722b7'
+    "contact": {
+        "email": "liuh25@uw.edu",
+        "github": "https://github.com/ABigBigWhale/",
+        "linkedin": "https://www.linkedin.com/in/hao-liu-014722b7"
     }
 }
