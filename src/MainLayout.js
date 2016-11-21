@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {browserHistory} from 'react-router';
 import Sidebar from 'react-sidebar';
 import {AppBar, Avatar} from 'material-ui';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
@@ -23,8 +24,6 @@ class MainLayout extends Component {
         this.componentWillUnmount = this.componentWillUnmount.bind(this);
         this.mediaQueryChanged = this.mediaQueryChanged.bind(this);
         this.getChildContext = this.getChildContext.bind(this);
-        
-        console.log(this.props.content);
     }
 
     onSetSidebarOpen(open) {
@@ -63,7 +62,7 @@ class MainLayout extends Component {
         const sidebarContent = (
             <div>
                 <div className='center'>
-                    <Avatar src='./person.png'
+                    <Avatar src='./img/avatar.jpg'
                         size={100}
                         style={avatarStyle} />
                 </div>
@@ -78,7 +77,11 @@ class MainLayout extends Component {
                         title='Portfolio'
                         onLeftIconButtonTouchTap={() => {
                             this.setState({sidebarDocked: !this.state.sidebarDocked});
-                        }} />
+                        }}
+                        iconClassNameRight='fa fa-home'
+                        onRightIconButtonTouchTap={() => {
+                            browserHistory.push('/');
+                        }}/>
                 </header>
                 <main className='main' >
                     <div className='container'>

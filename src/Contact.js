@@ -35,7 +35,7 @@ class Contact extends Component {
                     {Object.keys(obj).map((key) => {
                         return (
                             <div className='row' key={key}>
-                                <div className='center-align' style={styleDiv}>
+                                <div style={styleDiv}>
                                     <h3>{key.charAt(0).toUpperCase() + key.slice(1)}</h3>
                                     <p>{obj[key]}</p>
                                 </div>

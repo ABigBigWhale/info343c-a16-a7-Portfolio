@@ -6,12 +6,14 @@
     "react-scripts": "0.7.0"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "jquery": "^3.1.1",
     "material-ui": "^0.16.4",
     "materialize-css": "^0.97.8",
     "pageres": "^4.2.0",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
+    "react-fontawesome": "^1.4.0",
     "react-materialize": "^0.17.2",
     "react-native": "^0.37.0",
     "react-native-web": "0.0.50",

@@ -34,7 +34,7 @@ class NavList extends Component {
                             listItem = (
                                 <ListItem 
                                     key={prop}
-                                    primaryText={prop}
+                                    primaryText={prop.charAt(0).toUpperCase() + prop.slice(1)}
                                     disabled={true}
                                     initiallyOpen={true}
                                     nestedItems={nestedItems} />
@@ -46,7 +46,7 @@ class NavList extends Component {
                             listItem = (
                                 <ListItem 
                                     key={prop}
-                                    primaryText={prop}
+                                    primaryText={prop.charAt(0).toUpperCase() + prop.slice(1)}
                                     onClick={() => {
                                         browserHistory.push(
                                             (itemName !== 'contact' ? '/projects/' : '/')

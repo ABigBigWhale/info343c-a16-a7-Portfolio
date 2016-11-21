@@ -12,7 +12,6 @@ class App extends Component {
     
     componentDidMount() {
         var dataFile = require('./portfolio.json');
-        console.log(dataFile);
         this.setState({data: dataFile});
     }
 
