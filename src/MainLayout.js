@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {browserHistory} from 'react-router';
+import {hashHistory} from 'react-router';
 import Sidebar from 'react-sidebar';
 import {AppBar, Avatar} from 'material-ui';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
@@ -80,7 +80,7 @@ class MainLayout extends Component {
                         }}
                         iconClassNameRight='fa fa-home'
                         onRightIconButtonTouchTap={() => {
-                            browserHistory.push('/');
+                            hashHistory.push('/');
                         }}/>
                 </header>
                 <main className='main' >

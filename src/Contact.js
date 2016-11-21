@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Divider, Paper} from 'material-ui';
+import {Divider} from 'material-ui';
 
 class Contact extends Component {
 

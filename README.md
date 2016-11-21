@@ -14,3 +14,4 @@ No. I did the assignment individually.
 6 hours
 
 ### Did you encounter any specific problems in this challenge we should warn students about in the future? How can we make the challenge better?
+I would tell the students to avoid using browserHistory in react-router to avoid the server configurations...

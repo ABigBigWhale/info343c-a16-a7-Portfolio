@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {List, ListItem} from 'material-ui';
-import {browserHistory} from 'react-router';
+import {hashHistory} from 'react-router';
 
 class NavList extends Component {
 
@@ -48,7 +48,7 @@ class NavList extends Component {
                                     key={prop}
                                     primaryText={prop.charAt(0).toUpperCase() + prop.slice(1)}
                                     onClick={() => {
-                                        browserHistory.push(
+                                        hashHistory.push(
                                             (itemName !== 'contact' ? '/projects/' : '/')
                                             + itemName
                                         );
